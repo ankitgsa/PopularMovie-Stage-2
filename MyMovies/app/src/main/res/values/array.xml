@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_entries" translatable = "false">
+        <item>Popularity</item>
+        <item>Rating</item>
+        <item>Favourites</item>
+    </string-array>
+
+    <string-array name="pref_values" translatable = "false">
+        <item>popularity</item>
+        <item>rating</item>
+        <item>favourites</item>
+            </string-array>
+
+
+</resources>
