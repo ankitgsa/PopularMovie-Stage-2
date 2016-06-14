@@ -33,34 +33,33 @@ import java.util.Arrays;
  * A placeholder fragment containing a simple view.
  */
 public class MainActivityFragment extends Fragment {
-    static GridView gridview;
-    static ArrayList<String> posters;
-    static boolean sortByPop = true;
+        static GridView gridview;
+     static ArrayList<String> posters;
+     boolean sortByPop = true;
     static boolean sortByFav=true;
-    private static final String API_KEY = "";
-    static PreferenceChangeListener listener;
-    static SharedPreferences prefs;
+    private final String API_KEY = "";
+     PreferenceChangeListener listener;
+     SharedPreferences prefs;
 
-    static ArrayList<String> overviews;
-    static ArrayList<String> trailer1;
-    static ArrayList<String> trailer2;
-    static ArrayList<ArrayList<String>> reviews;
-    static ArrayList<String> title;
-    static ArrayList<String> date;
-    static ArrayList<String> ratings;
-    static ArrayList<String> id;
-    static ArrayList<Boolean> favourited;
+     ArrayList<String> overviews;
+     ArrayList<String> trailer1;
+     ArrayList<String> trailer2;
+     ArrayList<ArrayList<String>> reviews;
+     ArrayList<String> title;
+     ArrayList<String> date;
+     ArrayList<String> ratings;
+     ArrayList<String> id;
+     ArrayList<Boolean> favourited;
 
     public static DetailedActivityFragment df;
-    static ArrayList<String> postersF;
-    static ArrayList<String> titlesF;
-    static ArrayList<String> ratingsF;
-    static ArrayList<String> overviewsF;
-    static ArrayList<String> datesF;
-    static ArrayList<ArrayList<String>> reviewsF;
-    static ArrayList<String> youtubesF;
-    static ArrayList<String> youtubes2F;
-
+     ArrayList<String> postersF;
+     ArrayList<String> titlesF;
+     ArrayList<String> ratingsF;
+     ArrayList<String> overviewsF;
+     ArrayList<String> datesF;
+     ArrayList<ArrayList<String>> reviewsF;
+     ArrayList<String> youtubesF;
+     ArrayList<String> youtubes2F;
     public MainActivityFragment() {
 
 
